@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Card {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  height: 30%;
+}
+.Cardmedia{
+    margin: auto;
+}
+@media screen and (max-width:700px) and (min-width:100px) {
+    .Card {
+        margin: auto;
+        display: block;
+        width: 80%;
+        height: 30%;
+      }
+      .Cardmedia{
+        margin: auto;
+    }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-book {
+  width: 40px;
+}
+h1 {
+  color: #fff;
+}
+span {
+  color: rgb(1, 1, 22);
+}
+
+.Book-select {
+  margin: 1000px;
+}
+
+.flex {
+  text-align: center;
+  justify-content: space-around;
+  /* background-image: url('./img/cubes.png'); */
+}
+
+.Input-search {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  color: blue;
+  height: 100vh;
+}
+
+.Categories-text {
+  margin-top: 68px;
+}
+
+.Sorting-text {
+  margin-top: 68px;
+  color: blue;
+}
+
+#outlined-basic {
+  justify-content: space-around;
+}
+
+.Box {
+  /* margin-top: 50px; */
+  margin: 50px 30px 00px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background: blue;
+  justify-content: space-around;
+}
+.foo {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.books {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  color: #fff;
+}
+.foo > div {
+  flex: 400px;
+}
